@@ -2,11 +2,11 @@ package controller;
 
 public class MonsterRunner
 {
-	public static void main(String[] args);
-
+	
+	public static void main(String [] args)
 	{
-		MonsterRunner app = new MonsterRunner();
-		app.start()
+		MonsterController app = new MonsterController();
+		app.start();
 	}
 
 }
