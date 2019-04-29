@@ -15,7 +15,7 @@ public class MonsterController
 	// Constructors initialize data members@
 	public MonsterController()
 	{
-		//myMonster = new MarshmallowMonster("Harold", 2.0, 3, true, 4, true);
+		//myMonster = new MarshmallowMonster("", 2.0, 3, true, 4, true);
 		userMonster = new MarshmallowMonster();
 		inputScanner = new Scanner(System.in);
 	}
